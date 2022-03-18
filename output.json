@@ -1,0 +1,52 @@
+[
+   {
+      "id": 1,
+      "nama": "Eri",
+      "alamat": "jln graha jati no 15",
+      "transactions": [
+         {
+            "id": 1,
+            "customers_id": 1,
+            "product_id": 1,
+            "purchase_date": "2021-05-24",
+            "quantity": 2,
+            "product": {
+               "id": 1,
+               "product_name": "Baju",
+               "price": 100000
+            }
+         },
+         {
+            "id": 2,
+            "customers_id": 1,
+            "product_id": 2,
+            "purchase_date": "2021-05-24",
+            "quantity": 1,
+            "product": {
+               "id": 2,
+               "product_name": "Celana",
+               "price": 150000
+            }
+         }
+      ]
+   },
+   {
+      "id": 2,
+      "nama": "Akbar",
+      "alamat": "jln dipati uku no 15",
+      "transactions": [
+         {
+            "id": 1,
+            "customers_id": 2,
+            "product_id": 1,
+            "purchase_date": "2021-05-23",
+            "quantity": 2,
+            "product": {
+               "id": 1,
+               "product_name": "Baju",
+               "price": 100000
+            }
+         }
+      ]
+   }
+]
